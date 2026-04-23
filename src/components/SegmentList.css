@@ -1,0 +1,10 @@
+.segment-list { list-style: none; margin: 0; padding: 8px; display: flex; flex-direction: column; gap: 4px; overflow-y: auto; max-height: 200px; }
+.segment-list--empty { color: #666; font-size: 13px; text-align: center; padding: 16px; }
+.segment-item { display: flex; align-items: center; gap: 10px; padding: 6px 10px; background: #1e1e1e; border: 1px solid #333; border-radius: 4px; cursor: pointer; color: #ccc; font-size: 13px; }
+.segment-item:hover { background: #2a2a2a; }
+.segment-item--active { border-color: #34c864; background: #1a2e1a; }
+.segment-index { color: #888; min-width: 24px; }
+.segment-times { font-family: monospace; flex: 1; }
+.segment-duration { color: #888; }
+.segment-delete-btn { padding: 2px 8px; font-size: 12px; background: #4a1a1a; border: 1px solid #8a2a2a; border-radius: 3px; color: #f88; cursor: pointer; }
+.segment-delete-btn:hover { background: #6a2a2a; }

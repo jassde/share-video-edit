@@ -1,0 +1,22 @@
+.dialog-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.7); display: flex; align-items: center; justify-content: center; z-index: 1000; }
+.dialog-box { background: #1e1e1e; border: 1px solid #444; border-radius: 8px; padding: 24px; min-width: 420px; max-width: 560px; color: #eee; }
+.dialog-title { margin: 0 0 16px; font-size: 18px; color: #fff; }
+.dialog-field { margin-bottom: 14px; }
+.dialog-field label { display: block; font-size: 13px; color: #aaa; margin-bottom: 4px; }
+.dialog-field--inline { display: flex; align-items: center; gap: 10px; }
+.dialog-field--inline label { margin-bottom: 0; }
+.dialog-row { display: flex; gap: 8px; }
+.dialog-input { flex: 1; padding: 6px 10px; background: #111; border: 1px solid #444; border-radius: 4px; color: #eee; font-size: 13px; }
+.dialog-select { width: 100%; padding: 6px 10px; background: #111; border: 1px solid #444; border-radius: 4px; color: #eee; font-size: 13px; }
+.dialog-btn { padding: 6px 14px; border-radius: 4px; border: 1px solid #555; background: #2a2a2a; color: #eee; cursor: pointer; font-size: 13px; }
+.dialog-btn--primary { background: #2a5c2a; border-color: #3a8a3a; }
+.dialog-btn--secondary { background: #3a2a2a; border-color: #6a3a3a; }
+.dialog-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.dialog-progress { position: relative; height: 20px; background: #111; border-radius: 10px; overflow: hidden; margin-bottom: 12px; }
+.dialog-progress-bar { position: absolute; left: 0; top: 0; height: 100%; background: #3a8a3a; transition: width 0.3s ease; }
+.dialog-progress-label { position: absolute; width: 100%; text-align: center; font-size: 12px; line-height: 20px; color: #fff; }
+.dialog-error { color: #f88; font-size: 13px; }
+.dialog-results { list-style: none; padding: 0; font-family: monospace; font-size: 12px; color: #8f8; }
+.dialog-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 16px; }
+.dialog-range { width: 100%; }
+.dialog-hint { font-size: 11px; color: #777; margin-top: 4px; }
